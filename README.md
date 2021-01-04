@@ -7,7 +7,6 @@ We developed an android mobile application with many functionalities dedicated t
 * The application is inspired by: Lazarillo GPS for the blind, Connect by BeWarned, Be My Eyes.
 
 # Class Diagram: 
-
 ![class](https://user-images.githubusercontent.com/67188835/103522902-1767d200-4e8c-11eb-868d-5b0929312729.PNG)
 
 # Functional Requirements
