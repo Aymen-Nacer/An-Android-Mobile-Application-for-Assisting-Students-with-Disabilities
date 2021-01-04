@@ -70,7 +70,7 @@ First, we have Explorer button, which uses Places API to retrieve nearby places 
 ## My Location:
 In addition, we have my location button, which displays the address of the user on screen for ease of reading by talkback screen reader
 
-![my location](https://user-images.githubusercontent.com/67188835/103523415-db813c80-4e8c-11eb-9c1e-61e00e2c1cd4.PNG)
+![my location png](https://user-images.githubusercontent.com/67188835/103529836-6b2be880-4e97-11eb-971f-a01b515081e2.png)
 
 ## Search:
 Third, we have the search button, which enables the user to search for a location using a regular google maps view. The user can type a place in the search bar; the search bar supports voice search. The speech recognition language is based on the language of the application. When a place is given, a suggestions list will pop up, and the user can select the place he/she is looking for from the suggestions list. Once the user clicks on it, he/she will be directed to trip information page.
