@@ -1,4 +1,4 @@
-# An-Android-Mobile-Application-for-Assisting-Students-with-Disabilities
+# An Android Mobile Application for Assisting Students with Disabilities
 
 * The application focuses on students with visual, hearing and mobility impairment. The application will direct students to their desired destination by audio guidance and captions, help students with hearing impairment communicate clearly, keep students notified of special events, and help them when they get in trouble.
 
