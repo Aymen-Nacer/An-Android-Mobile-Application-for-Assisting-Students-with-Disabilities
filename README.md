@@ -12,47 +12,47 @@
 # Functional Requirements
 
 ## Maps Navigation
-• The system should be able to display a map
-• The user should be able to search for destination
-• The user should be able to choose a location directly from the map
-• The system should inform the user by his/her surrounding
-• The system should provide a list of nearby places based on category around the user.
-• The system should provide the details of the trip to the destination
-• The system should be able to provide the fastest and best-fit route to the destination
-• The system should direct the user by turn-by-turn instructions by voice and captions
-• The system should be able to locate and provide the user location
+* The system should be able to display a map
+* The user should be able to search for destination
+* The user should be able to choose a location directly from the map
+* The system should inform the user by his/her surrounding
+* The system should provide a list of nearby places based on category around the user.
+* The system should provide the details of the trip to the destination
+* The system should be able to provide the fastest and best-fit route to the destination
+* The system should direct the user by turn-by-turn instructions by voice and captions
+* The system should be able to locate and provide the user location
 
 ## Dialog for the Hearing Impairment
-• The system will receive a real-time speech or audio as input
-• The system will display a text corresponding to the received speech or audio
-• The user should be able to type text and display it on screen
-• The user should be able to turn the written text into audio by clicking play button
-• The system should be able to distinguish user A from user B by giving them different colors
-• The user should be able to choose text from ready-to-use templates and display it on screen
+* The system will receive a real-time speech or audio as input
+* The system will display a text corresponding to the received speech or audio
+* The user should be able to type text and display it on screen
+* The user should be able to turn the written text into audio by clicking play button
+* The system should be able to distinguish user A from user B by giving them different colors
+* The user should be able to choose text from ready-to-use templates and display it on screen
 
 ## Emergency Video Call
-• The system should be able to direct the user to make video call with assistant on Google Duo app
+* The system should be able to direct the user to make video call with assistant on Google Duo app
 
 ## Calendar
-• The user should be able to add, update, delete special events dates
-• The system should be able to notify the user based on voice, vibration, caption
-• The system should display calendar with all added events
+* The user should be able to add, update, delete special events dates
+* The system should be able to notify the user based on voice, vibration, caption
+* The system should display calendar with all added events
 
 ## Help Center Call
-• The system should provide phone numbers and direct the user to conduct a call to help centers
+* The system should provide phone numbers and direct the user to conduct a call to help centers
 
 ## Real-Time Notification
-• The Administrator should be able to send a real-time notification to all users of the App
-• The system should be able to notify the user based on voice, vibration, caption
+* The Administrator should be able to send a real-time notification to all users of the App
+* The system should be able to notify the user based on voice, vibration, caption
 
 ## Feedback Form
-• The user should be able to fill a form and submit it
-• The system should be able to send the form to Universal Access Program email
+* The user should be able to fill a form and submit it
+* The system should be able to send the form to Universal Access Program email
 
 ## Based on App
-• The user should be able to register in order to use the app
-• The user should be able to login
-• The student should be able to add and update profile information
+* The user should be able to register in order to use the app
+* The user should be able to login
+* The student should be able to add and update profile information
 
 # Home Page
 ![Homepage EVC](https://user-images.githubusercontent.com/67188835/103524788-31ef7a80-4e8f-11eb-9b1a-b5eba8a52ca7.PNG)
@@ -132,7 +132,8 @@ that he/she can add beside the sign-up information are student id, type of disab
 impairment, physical impairment, other), the degree of disability (light, average, strong), age, and the gender of
 the user
 
-![personal profile](https://user-images.githubusercontent.com/67188835/103524420-9b22be00-4e8e-11eb-80ae-f1d57e89b0d9.jpg)
+![peronal png](https://user-images.githubusercontent.com/67188835/103526388-e4c0d800-4e91-11eb-8ec2-7f459be023e6.PNG)
+
 
 # Dialog (Communicate):
 Two users should use it. The first user types a text and displays it on screen, with the ability to convert
@@ -157,7 +158,9 @@ a countdown, and it will be ordered by sooner to older. When that date has come,
 to remind him of the event. The event can be modified by pressing the event, and it can be deleted by swiping or
 pressing the event and pressing delete.
 
-![Calendar](https://user-images.githubusercontent.com/67188835/103525067-ade9c280-4e8f-11eb-8ec2-e9630fbf54ca.jpg)
+
+![Calendar png](https://user-images.githubusercontent.com/67188835/103526493-0fab2c00-4e92-11eb-80f7-c388d725ac45.PNG)
+
 
 # Contact Us:
 The user has two options to contact the support team, either by sending a feedback form or calling the support
@@ -166,7 +169,8 @@ of the form. Once the user fills the information and sends it, the feedback form
 message, and the user should click the send button to send it to the support team email address. For the regular
 phone call, the user will be directed to the phone dial with the support team phone number.
 
-![07913f2c-f0d1-40cd-b987-95ad6daabda8](https://user-images.githubusercontent.com/67188835/103525182-e1c4e800-4e8f-11eb-8cd4-a5e84e54b1fe.jpg)
+![Feedback png](https://user-images.githubusercontent.com/67188835/103526428-f5714e00-4e91-11eb-9574-b0fa04e87008.PNG)
+
 
 # Real-Time Notifications:
 The administrator can log in to the firebase site and send a real-time notification to all application users. To send
