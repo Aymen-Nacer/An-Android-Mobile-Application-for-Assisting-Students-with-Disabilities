@@ -42,15 +42,15 @@
 * The system should provide phone numbers and direct the user to conduct a call to help centers
 
 ## Real-Time Notification
-* The Administrator should be able to send a real-time notification to all users of the App
+* The administrator should be able to send a real-time notification to all users of the App
 * The system should be able to notify the user based on voice, vibration, caption
 
 ## Feedback Form
 * The user should be able to fill a form and submit it
-* The system should be able to send the form to Universal Access Program email
+* The system should be able to send the form to a particular email.
 
 ## Based on App
-* The user should be able to register in order to use the app
+* The user should be able to register
 * The user should be able to login
 * The student should be able to add and update profile information
 
@@ -105,9 +105,7 @@ page.
 The trip information page displays detailed information about a place. It displays the place's name, the
 type of the place, distance to the place, and direction to the place relative to user orientation. 
 
-Once the user enters the trip information page, the application will turn the text to speech. The text to speech will
-repeat the distance and the direction every 15 seconds. The user can navigate turn-by-turn based on car and walk
-mode. Once the user chooses one of these modes, then the application will direct the user directly to the turn-byturn navigation in Google Maps application.
+Once the user enters the trip information page, the application will turn the text to speech. The text to speech will repeat the distance and the direction every 15 seconds. The user can navigate turn-by-turn based on car and walk mode. Once the user chooses one of these modes, then the application will direct the user directly to the turn-byturn navigation in Google Maps application.
 
 ![trip](https://user-images.githubusercontent.com/67188835/103523957-cd7feb80-4e8d-11eb-90ad-2739c4331462.PNG)
 
