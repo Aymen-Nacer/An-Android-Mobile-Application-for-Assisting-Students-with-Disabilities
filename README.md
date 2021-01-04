@@ -88,7 +88,7 @@ Moreover, on the maps page, we have nearby places based on categories. It enable
 ## Trip Information Page:
 The trip information page displays detailed information about a place. It displays the place's name, the type of the place, distance to the place, and direction to the place relative to user orientation. 
 
-Once the user enters the trip information page, the application will turn the text to speech. The text to speech will repeat the distance and the direction every 15 seconds. The user can navigate turn-by-turn based on car and walk mode. Once the user chooses one of these modes, then the application will direct the user directly to the turn-byturn navigation in Google Maps application.
+Once the user enters the trip information page, the application will turn the text to speech. The text to speech will repeat the distance and the direction every 15 seconds. The user can navigate turn-by-turn based on car and walk mode. Once the user chooses one of these modes, then the application will direct the user directly to the turn-by turn navigation in Google Maps application.
 
 ![trip](https://user-images.githubusercontent.com/67188835/103523957-cd7feb80-4e8d-11eb-90ad-2739c4331462.PNG)
 
@@ -103,7 +103,7 @@ Once the user opens the application, the user has two options for him to use the
 ![login](https://user-images.githubusercontent.com/67188835/103524225-3cf5db00-4e8e-11eb-816f-2b06f7a6eb1e.PNG)
 
 # Personal Profile:
-User can add more information and modify his profile and save it by pressing the save button. The information that he/she can add beside the sign-up information are student id, type of disability (hearing impairment, vision impairment, physical impairment, other), the degree of disability (light, average, strong), age, and the gender of the user.
+User can add more information and modify his/her profile and save it by pressing the save button. The information that he/she can add beside the sign-up information are student id, type of disability (hearing impairment, vision impairment, physical impairment, other), the degree of disability (light, average, strong), age, and the gender of the user.
 
 ![peronal png](https://user-images.githubusercontent.com/67188835/103526388-e4c0d800-4e91-11eb-8ec2-7f459be023e6.PNG)
 
@@ -141,9 +141,9 @@ The administrator can log in to the firebase site and send a real-time notificat
 The user can choose to use the application without registration. However, the user can only use maps, dialog, emergency calls, and contact us, including feedback form and regular phone call. In addition, at the beginning, the user can either choose to use the application in Arabic or English language. When the user signs up, the next time the user enters the application, he/she will be directed to the home page directly.
 
 The application is created by: 
-Aymen Nacer
-Ahmed Alrazouq
-Naif Alobaid
+* Aymen Nacer
+* Ahmed Alrazouq
+* Naif Alobaid
 
 
 
