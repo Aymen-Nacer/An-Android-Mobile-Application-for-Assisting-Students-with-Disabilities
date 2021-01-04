@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="#5b6c7b"
+    android:orientation="vertical"
+    tools:context=".PersonalProfile">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:background="#16a3d9"
+        android:text="وصول\nالملف الشخصي"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:labelFor="@id/name"
+        android:id="@+id/textName"
+        android:layout_below="@id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@android:color/transparent"
+        android:text=" الاسم"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_below="@id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:inputType="text"
+        android:textSize="30dp" />
+
+    <TextView
+        android:labelFor="@id/university_ID"
+        android:id="@+id/EditTextID"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@android:color/transparent"
+        android:text=" الرقم الجامعي/ أو الرقم الوظيفي"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_below="@id/EditTextID"
+        android:id="@+id/university_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:inputType="number"
+        android:textSize="30dp" />
+
+    <TextView
+        android:labelFor="@id/Phone_Number"
+        android:id="@+id/EditTextPhone"
+        android:layout_below="@id/university_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@android:color/transparent"
+        android:text=" رقم الجوال"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/Phone_Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EditTextPhone"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:inputType="phone"
+        android:textSize="30dp" />
+
+    <TextView
+        android:labelFor="@id/spinner1"
+        android:id="@+id/textView1"
+        android:layout_below="@id/Phone_Number"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text=" نوع الاعاقة"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/DisabilityType"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/spinner1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:inputType="text"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        style="@android:style/Widget.Spinner.DropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:labelFor="@id/spinner2"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/degree"
+        android:layout_below="@id/Phone_Number"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text=" درجة الاعاقة"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    <Spinner
+        android:layout_alignParentLeft="true"
+        android:id="@+id/spinner2"
+        android:layout_below="@id/degree"
+        android:layout_marginLeft="30dp"
+        style="@android:style/Widget.Spinner.DropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:labelFor="@id/spinner3"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="@android:color/transparent"
+        android:text=" الجنس"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_below="@id/textViewGender"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        style="@android:style/Widget.Spinner.DropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:labelFor="@id/ageEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner2"
+        android:layout_marginLeft="50dp"
+        android:background="@android:color/transparent"
+        android:text=" العمر"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+    <EditText
+        android:maxLength="2"
+        android:background="#FFFFFF"
+        android:id="@+id/ageEditText"
+        android:layout_below="@id/textViewAge"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:digits="0123456789"
+        android:inputType="phone"
+        android:layout_width="45dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_height="35dp" />
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@+id/save"
+        android:layout_below="@id/spinner3"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple"
+        android:onClick="save"
+        android:text="حفظ" />
+</RelativeLayout>

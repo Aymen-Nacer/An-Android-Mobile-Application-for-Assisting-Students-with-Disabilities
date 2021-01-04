@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#0A91C1</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:textColorPrimary">#FFFFFF</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:fontFamily">@font/calibri</item>
+        <item name="android:textSize">@dimen/sub_title_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <!--        <item name="android:drawableTint" tools:ignore="NewApi">@color/blue</item>-->
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/gap_padding_drawable_edit_text</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#16a3d9"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:id="@+id/language"
+        android:contentDescription="تغيير اللغة,Change Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:onClick="changeLanguage"
+        app:srcCompat="@drawable/language" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/a1" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/person"
+        android:hint="البريد الإلكتروني"
+        android:inputType="text"
+        android:textColorHint="#5caed4"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="3dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/lock"
+        android:hint=" كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        android:textColorHint="#5caed4"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        android:onClick="forgot"
+        android:text="نسيت كلمة المرور؟"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#1284b8"
+        android:onClick="LogIn"
+        android:textColor="@color/white"
+        android:text="تسجيل الدخول" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#1284b8"
+        android:textColor="@color/white"
+        android:onClick="signUp"
+        android:text="التسجيل" />
+    <Button
+        android:id="@+id/noLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1284b8"
+        android:textColor="@color/white"
+        android:onClick="noLogin"
+        android:text="الدخول بدون تسجيل" />
+
+
+
+</LinearLayout>

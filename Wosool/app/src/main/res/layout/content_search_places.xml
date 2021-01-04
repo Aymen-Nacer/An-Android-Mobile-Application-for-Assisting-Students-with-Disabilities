@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+
+    <Button
+        android:id="@+id/Microphone"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="Microphone"
+        android:background="#00ffffff"
+
+
+        />
+
+    <Button
+        android:id="@+id/whiteButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="back"
+        android:enabled = "false"
+        android:background="#00ffffff"
+        />
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_pin"
+        android:translationY="-18dp" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:elevation="5dp"
+            android:outlineProvider="bounds"
+            app:mt_hint="Search a place"
+            app:mt_maxSuggestionsCount="10"
+            app:mt_speechMode="true"
+            app:mt_navIconEnabled="false"
+            app:mt_placeholder="Search a place"
+
+            >
+
+
+        </com.mancj.materialsearchbar.MaterialSearchBar>
+
+    </RelativeLayout>
+
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/GridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        app:columnCount="2"
+        app:rowCount="1">
+
+        <Button
+            android:id="@+id/goToButton"
+
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:text="Go To"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:onClick="goToButton"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            android:textSize="10sp"
+            app:layout_rowWeight="1"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/buildingsButton"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:text="University Buildings"
+            android:onClick="BuildingsButton"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</RelativeLayout>

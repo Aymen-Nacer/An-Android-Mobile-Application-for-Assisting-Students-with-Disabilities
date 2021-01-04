@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#16a3d9"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/a1" />
+
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/person"
+        android:hint="البريد الإلكتروني"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#5caed4"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/lock"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        android:textAlignment="textEnd"
+        android:textColorHint="#5caed4"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="#FFFFFF"
+        android:drawableRight="@drawable/id"
+        android:hint=" الاسم"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textColorHint="#5caed4"
+        android:textSize="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.rilixtech.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            app:ccp_backgroundColor="@color/cardview_light_background"
+            app:ccp_arrowSize="40dp"
+            app:ccp_defaultNameCode="SA"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="30dp"
+            android:background="#FFFFFF"
+            android:drawableRight="@drawable/phone"
+            android:hint="رقم الجوال"
+            android:inputType="phone"
+            android:textAlignment="textEnd"
+            android:textColorHint="#5caed4"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:id="@id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1284b8"
+        android:onClick="signUp"
+        android:text="التسجيل" />
+
+</LinearLayout>

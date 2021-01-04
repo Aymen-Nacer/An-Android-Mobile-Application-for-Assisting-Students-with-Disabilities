@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#235B6C7B"
+    android:orientation="vertical"
+    tools:context=".Homepage">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:background="@drawable/bb"
+        android:layout_alignParentTop="true"
+        android:layout_height="90dp" />
+    <ImageView
+        android:contentDescription="تسجيل الخروج"
+        android:id="@+id/imageView2"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="25dp"
+        android:onClick="signOut"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@id/imageView"
+        app:srcCompat="@drawable/signout" />
+    <ImageView
+        android:id="@+id/language"
+        android:contentDescription="تغيير اللغة,Change Language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/imageView"
+        android:layout_marginTop="25dp"
+        android:onClick="changeLanguage"
+        android:layout_marginRight="10dp"
+        app:srcCompat="@drawable/language" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1697A7B5"
+        android:layout_below="@+id/imageView"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#d84148"
+                android:drawableLeft="@drawable/personal_profile"
+                android:onClick="personalProfile"
+                android:text="  الملف الشخصي"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#f3992b"
+                android:drawableLeft="@drawable/map"
+                android:onClick="map"
+                android:text="  الخرائط"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#3da99a"
+                android:drawableLeft="@drawable/communicate"
+                android:onClick="communicate"
+                android:text="  تواصل"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#9c4ad3"
+                android:drawableLeft="@drawable/video_call"
+                android:onClick="assistanceVideoCall"
+                android:text="  مكالمة طارئة"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#cb4d25"
+                android:drawableLeft="@drawable/calendar"
+                android:onClick="calendar"
+                android:text="  التقويم"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="1dp"
+                android:background="#2ad3bc"
+                android:drawableLeft="@drawable/contact"
+                android:onClick="feedbackForm"
+                android:text="  تواصل معنا"
+                android:layout_alignParentBottom="true"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

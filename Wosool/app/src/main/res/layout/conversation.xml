@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root_view"
+    tools:context=".Conversation">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:contentDescription="المحادثة"
+        android:id="@+id/rec"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/btnSpeakContainer"
+        android:background="@color/colorWhite" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnSpeakContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:contentDescription="قوالب جاهزة للاستخدام/template"
+                android:id="@+id/suggestions_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="5dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_clipboard" />
+
+            <RelativeLayout
+
+                android:id="@+id/Rel1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_toStartOf="@+id/ImgSpeak"
+                android:layout_toEndOf="@id/suggestions_button">
+
+
+                <EditText
+                    android:id="@+id/EditText"
+                    style="@style/EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background"
+                    android:hint="@string/hint"
+                    android:padding="5dp"
+                    android:textColorHint="@color/colorBlack" />
+
+                <ImageView
+                    android:id="@+id/voice"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background1"
+                    android:visibility="gone" />
+
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:contentDescription=" مايكروفون\microphone"
+                android:id="@+id/ImgSpeak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@null"
+
+                android:fadeScrollbars="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_microphone" />
+
+            <ImageButton
+                android:id="@+id/btnsend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="5dp"
+                android:background="@null"
+                android:fadeScrollbars="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_interface"
+                android:visibility="invisible" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <com.example.project.ExpandableHeightGridView
+        android:id="@+id/suggestions_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        android:isScrollContainer="false"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        />
+</LinearLayout>

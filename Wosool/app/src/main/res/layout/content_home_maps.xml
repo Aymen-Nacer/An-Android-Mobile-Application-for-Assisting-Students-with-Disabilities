@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeMaps">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/GridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/restaurantBtn"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:background="#1284b8"
+            android:onClick="nearbyRestaurantsButton"
+            android:textSize="12sp"
+            android:text="Restaurants"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/HospitalBtn"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:textAllCaps="false"
+            android:onClick="nearbyHospitalsButton"
+            android:textSize="12sp"
+            android:text="Hospitals"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+          />
+
+        <Button
+            android:id="@+id/parkingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:onClick="nearbyParkingsButton"
+            android:text="Parkings"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+           />
+
+        <Button
+            android:id="@+id/CollegesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:textAllCaps="false"
+            android:onClick="nearbyCollegesButton"
+            android:text="Colleges"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            />
+
+        <Button
+            android:id="@+id/mosqueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:onClick="nearbyMosquesButton"
+            android:textAllCaps="false"
+            android:text="Mosques"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+            />
+
+
+        <Button
+            android:id="@+id/cafeBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:onClick="nearbyCafesButton"
+            android:textAllCaps="false"
+            android:text="Cafes"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+        />
+
+
+        <Button
+            android:id="@+id/atmBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:onClick="nearbyAtmsButton"
+            android:textAllCaps="false"
+            android:text="ATMs"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            android:textSize="12sp"
+            app:layout_rowWeight="1"
+            />
+
+        <Button
+            android:id="@+id/LibraryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#1284b8"
+            android:onClick="nearbyLibrariesButton"
+            android:textAllCaps="false"
+            android:text="Libraries"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+          />
+    </androidx.gridlayout.widget.GridLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/expButton"
+            android:layout_width="0dp"
+            android:layout_margin="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="explorerButton"
+            android:textAllCaps="false"
+            android:text="Explorer"
+            android:background="#1284b8"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/myLocationBtn"
+            android:layout_margin="2dp"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="myLocationButton"
+            android:textAllCaps="false"
+            android:text="My Location"
+            android:background="#1284b8"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+
+        <Button
+            android:id="@+id/SearchButton"
+            android:layout_margin="2dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:onClick="searchPlaceButton"
+            android:text="Search"
+            android:background="#1284b8"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textViewContent"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

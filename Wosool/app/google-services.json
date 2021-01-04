@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017541640261",
+    "firebase_url": "https://wosool-b5916.firebaseio.com",
+    "project_id": "wosool-b5916",
+    "storage_bucket": "wosool-b5916.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017541640261:android:6f4aceaafbdf0507fa232c",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017541640261-trketgekl7a5a6vvvbl3lpki3stf7p8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8z0YGa3nRleyfObTqhcODnnRftxETnPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017541640261-trketgekl7a5a6vvvbl3lpki3stf7p8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
