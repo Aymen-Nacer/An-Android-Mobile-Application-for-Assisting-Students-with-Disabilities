@@ -1,6 +1,6 @@
 # An Android Mobile Application for Assisting Students with Disabilities
 
-We developed an android mobile application with many functionalities dedicated to assisting students with visual, hearing and mobility impairment in overcoming barriers and accessing the university’s facilities and systems while they are in the university.The application will direct students to their desired destination by audio guidance and captions, help students with hearing impairment communicate clearly, keep students notified of special events, and help them when they get in trouble by connecting them to volunteers through a video call.
+We developed an android mobile application with many functionalities dedicated to assisting students with visual, hearing and mobility impairment in overcoming barriers and accessing the university’s facilities and systems while they are in the university.The application directs students to their desired destination by audio guidance and captions, help students with hearing impairment communicate clearly, keep students notified of special events, and help them when they get in trouble by connecting them to volunteers through a video call.
 
 * Note: the application is meant for university purpose, but it can be used for any purpose.
 * Tools that are used : Android Studio, Firebase, Google Maps APIs, Speech Recognizer API, Google Duo.
