@@ -1,4 +1,3 @@
-# An Android Mobile Application for Assisting Students with Disabilities
 
 The system empowers visually impaired users by providing real-time auditory information about their surroundings, enabling them to create a mental map of the environment. It also offers a platform that facilitates clear communication between students with hearing impairments and those who can hear. The system connects blind and visually impaired individuals with sighted volunteers through video calls to assist with daily tasks and challenges.
 
