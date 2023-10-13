@@ -1,5 +1,4 @@
-
-The system empowers visually impaired users by providing real-time auditory information about their surroundings, enabling them to create a mental map of the environment. It also offers a platform that facilitates clear communication between students with hearing impairments and those who can hear. The system connects blind and visually impaired individuals with sighted volunteers through video calls to assist with daily tasks and challenges.
+The system offers a navigation solution that empowers visually impaired users with real-time auditory information for creating mental maps of their surroundings. It also serves as a platform for clear communication between students with hearing impairments and their peers. Additionally, the system connects blind and visually impaired individuals with sighted volunteers via video calls to provide support for daily tasks and challenges.
 
 Special features:
 
