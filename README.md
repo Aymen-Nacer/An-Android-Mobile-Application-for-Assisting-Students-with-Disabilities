@@ -1,10 +1,18 @@
-# An Android Mobile Application for Assisting Students with Disabilities
+l# An Android Mobile Application for Assisting Students with Disabilities
 
-We developed an android mobile application with many functionalities dedicated to assisting students with visual, hearing and mobility impairment in overcoming barriers and accessing the university’s facilities and systems while they are in the university.The application directs students to their desired destination by audio guidance and captions, help students with hearing impairment communicate clearly, keep students notified of special events, and help them when they get in trouble by connecting them to volunteers through a video call.
+The system empowers visually impaired users by providing real-time auditory information about their surroundings, enabling them to create a mental map of the environment. It also offers a platform that facilitates clear communication between students with hearing impairments and those who can hear. The system connects blind and visually impaired individuals with sighted volunteers through video calls to assist with daily tasks and challenges.
 
-* Note: the application is meant for university purpose, but it can be used for any purpose.
-* Tools that are used : Android Studio, Firebase, Google Maps APIs, Speech Recognizer API, Google Duo.
-* The application is inspired by: Lazarillo GPS for the blind, Connect by BeWarned, Be My Eyes.
+Special features:
+The system helps visually impaired users navigate by providing real-time auditory information about their surroundings, assisting them in creating a mental map of the environment. For instance, the system can audibly announce, "You have a restaurant located approximately 15 meters to the northeast." It also offers a categorized list of nearby places, including restaurants, shops, and mosques, drawing inspiration from the app concept of Lazarillo GPS for the blind.
+
+In the context of students with hearing impairments, this app functions as a platform for clear communication. Users can exchange text messages or use speech recognition to communicate, significantly reducing communication barriers. For example, if a hearing-impaired student wants to order a coffee, they can write their order in the app, and it will utter the text immediately. When a waiter replies, their speech will be converted into text on the student's screen, inspired by the concept of the app Connect by BeWarned.
+
+When students with visual impairments encounter difficulties or need help, our system allows them to connect with sighted volunteers via real-time video calls for guidance and support. For example, when a student needs assistance at a large university, they can use the system to connect with a volunteer who guides them to their destination in real-time, in line with the app concept of Be My Eyes.
+
+Furthermore, the system empowers students with disabilities to effectively manage academic schedules, including exam dates. Users can easily add, update, or delete these dates and receive timely notifications, ensuring they never miss an academic appointment.
+
+Tools and Technologies: Google Places API, Google Maps API, Text-to-Speech (TTS) API, SpeechRecognizer, Firebase, Firestore, Firebase Authentication, Google Duo, Android Studio, use case diagrams, interaction diagrams, class diagrams, and system architecture.
+
 
 # Class Diagram: 
 ![class](https://user-images.githubusercontent.com/67188835/103522902-1767d200-4e8c-11eb-868d-5b0929312729.PNG)
