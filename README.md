@@ -19,6 +19,13 @@ Inspired by the concept of the app Be My Eyes.
 
 Tools and Technologies: Google Places API, Google Maps API, Text-to-Speech (TTS) API, SpeechRecognizer, Firebase, Firestore, Firebase Authentication, Google Duo, Android Studio, use case diagrams, interaction diagrams, class diagrams, and system architecture.
 
+Use Cases: 
+
+* The system can audibly announce, "You have a restaurant located approximately 15 meters to the northeast."
+* A hearing-impaired student can use the app to order a coffee and have their text instantly converted into speech when the waiter replies.
+* When a student at a large university gets lost, they can use the system to connect with a volunteer who guides them to their destination in real-time.
+
+
 
 # Class Diagram: 
 ![class](https://user-images.githubusercontent.com/67188835/103522902-1767d200-4e8c-11eb-868d-5b0929312729.PNG)
