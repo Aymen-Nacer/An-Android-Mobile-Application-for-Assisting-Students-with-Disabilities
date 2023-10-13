@@ -3,11 +3,17 @@ The system empowers visually impaired users by providing real-time auditory info
 
 Special features:
 
-* The system helps visually impaired users navigate by providing real-time auditory information about their surroundings, assisting them in creating a mental map of the environment. For instance, the system can audibly announce, "You have a restaurant located approximately 15 meters to the northeast." It also offers a categorized list of nearby places, including restaurants, shops, and mosques, drawing inspiration from the app concept of Lazarillo GPS for the blind.
+* The system helps visually impaired users navigate by providing real-time auditory information about their surroundings, assisting them in creating a mental map of the environment. For instance, the system can audibly announce, "You have a restaurant located approximately 15 meters to the northeast." It also offers a categorized list of nearby places, including restaurants, shops, and mosques.
 
-* In the context of students with hearing impairments, this app functions as a platform for clear communication. Users can exchange text messages or use speech recognition to communicate, significantly reducing communication barriers. For example, if a hearing-impaired student wants to order a coffee, they can write their order in the app, and it will utter the text immediately. When a waiter replies, their speech will be converted into text on the student's screen, inspired by the concept of the app Connect by BeWarned.
+Inspired by the concept of the app Lazarillo GPS for the blind.
 
-* When students with visual impairments encounter difficulties or need help, our system allows them to connect with sighted volunteers via real-time video calls for guidance and support. For example, when a student needs assistance at a large university, they can use the system to connect with a volunteer who guides them to their destination in real-time, in line with the app concept of Be My Eyes.
+* In the context of students with hearing impairments, this app functions as a platform for clear communication. Users can exchange text messages or use speech recognition to communicate, significantly reducing communication barriers. For example, if a hearing-impaired student wants to order a coffee, they can write their order in the app, and it will utter the text immediately. When a waiter replies, their speech will be converted into text on the student's screen.
+
+Inspired by the concept of the app Connect by BeWarned.
+
+* When students with visual impairments encounter difficulties or need help, our system allows them to connect with sighted volunteers via real-time video calls for guidance and support. For instance, when a student at a large university gets lost, they can use the system to connect with a volunteer who guides them to their destination in real-time.
+
+Inspired by the concept of the app Be My Eyes.
 
 * Furthermore, the system empowers students with disabilities to effectively manage academic schedules, including exam dates. Users can easily add, update, or delete these dates and receive timely notifications, ensuring they never miss an academic appointment.
 
