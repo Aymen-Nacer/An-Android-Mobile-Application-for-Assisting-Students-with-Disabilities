@@ -30,6 +30,13 @@ Use Cases:
 # Class Diagram: 
 ![class](https://user-images.githubusercontent.com/67188835/103522902-1767d200-4e8c-11eb-868d-5b0929312729.PNG)
 
+# Use Case Diagram: 
+![use case diagram](https://github.com/Aymen-Nacer/An-Android-Mobile-Application-for-Assisting-Students-with-Disabilities/assets/67188835/1dcf2557-112a-4590-9950-87803d5b463a)
+
+# System Architecture: 
+![system architecture](https://github.com/Aymen-Nacer/An-Android-Mobile-Application-for-Assisting-Students-with-Disabilities/assets/67188835/8a9f9c66-1788-40b6-b36a-592080dca16f)
+
+
 # Functional Requirements
 
 ## Maps Navigation
