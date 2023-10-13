@@ -21,9 +21,9 @@ Tools and Technologies: Google Places API, Google Maps API, Text-to-Speech (TTS)
 
 Use Cases: 
 
-* The system can audibly announce, "You have a restaurant located approximately 15 meters to the northeast."
-* A hearing-impaired student can use the app to order a coffee and have their text instantly converted into speech when the waiter replies.
-* When a student at a large university gets lost, they can use the system to connect with a volunteer who guides them to their destination in real-time.
+* The system can assist visually impaired users by audibly announcing, "You have a restaurant located approximately 15 meters to the northeast.
+* A hearing-impaired student can utilize the app to order a coffee and have their text instantly converted into speech when the waiter replies.
+* When a student with visual impairment at a large university gets lost, they can utilize the system to connect with a volunteer who guides them to their destination in real-time.
 
 
 
